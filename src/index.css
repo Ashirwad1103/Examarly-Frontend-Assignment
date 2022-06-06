@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0px; 
+  padding: 0px; 
+  font-family:Sans-serif;
+}
+
+
+body{ 
+margin: 0; 
+padding: 0; 
+background-color: gray;
+margin-left: 16px;
+}
+
+
+.subject{ 
+background: linear-gradient(#FC5D73, #FF993F);
+color: white; 
+width: 107px; 
+height: 30px;
+border-radius: .5em;
+text-align: center;
+margin-top: 150px;
+padding-top: 5px;
+}
+
+.bar{
+background: rgba(255,255,255, 0.5); 
+margin-top: 4px;  
+margin-right: 2px; 
+width: 34px;
+height: 4px; 
+border-radius: 2px;
+float: left; 
+}
+
+
+.connector{ 
+background: linear-gradient(#FC5D73, #FF993F);
+height: 44px;
+width: 2px;  
+margin-left: 24px;
+clear:left; 
+
+}
+
+.card{
+  width: 260px;
+  height: 293.64px; 
+  background: linear-gradient(#FC5D73, #FF993F);
+  border-radius: 5px;
+}
+
+.desc{
+padding: 20px;
+text-align: left; 
+color: white; 
+}
+
+.desc h2{ 
+  margin-bottom: 10px; 
+}
+
+.button {
+    text-align: right; 
+    padding-right:15px; 
+    padding-top:15px; 
+    padding-bottom:20px; 
+  }
+
+.button button{
+  border-radius: 4px; 
+  background-color: #FFFFFF;
+  width:82px;
+  height:30px;
+  border: 0;
+}
